@@ -1,0 +1,6 @@
+gollum:
+  build: latest
+  ports:
+    - "4567:80"
+  volumes:
+    - $PWD:/wiki
